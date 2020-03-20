@@ -13,6 +13,7 @@ public class Line {
 		this.y2 = y2;
 	}
 	
+	
 	public void paint(Graphics g) {
 		g.setColor(Color.black);
 		g.drawLine(x1, y1, x2, y2);

@@ -54,6 +54,7 @@ public class CovidFrame extends JPanel implements ActionListener {
 		frame.setSize(800, 600);
 		frame.setVisible(true);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setLocationRelativeTo(null);
 		frame.setResizable(false);
 		frame.add(this);
 		Timer t = new Timer(16, this);
